@@ -4,13 +4,13 @@
 
 <h1>My Recipes</h1>
 
-<div class="flex three demo">
+<div class="col-3">
 
 {% for post in posts %}
 
-    <div>
+    <main class="card stretch">
 
-        <article class="card">
+        <article>
             <header>
                 <img src="{{ post.thumbnail }}">
             </header>
@@ -30,7 +30,7 @@
             
         </article>
 
-    </div>
+    </main>
 
 
 {% endfor %}

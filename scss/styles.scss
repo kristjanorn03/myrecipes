@@ -1,8 +1,7 @@
-
-
+ 
 $font: 'Merriweather', serif ;
-$fontcolor: red;
-$bgcolor: #f77;
+$fontcolor: rgb(0, 128, 128);
+$bgcolor: rgb(233, 44, 44);
 body {
     background-color: $bgcolor;
     font-family: $font;
@@ -10,11 +9,7 @@ body {
 h1, h2, h3 {
     color: $fontcolor;
 }
-.container {
-    width: 80% ;
-    margin: auto;
-    margin-top: 3em;
-}
+
 .img {
     max-width:100%;
     height:auto;

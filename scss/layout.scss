@@ -1,8 +1,5 @@
 // grid columns
-.container {
-    max-width: 80 em;
-    margin: 0 auto;
-}
+
 //Ipad//
 @media screen and (min-width:37.5em) {
     .col-3 {
@@ -19,7 +16,7 @@
 // fartölvur //
 @media screen and (min-width:60em) {
     .container {
-        max-width: 70em;
+        max-width: 60em;
         margin: 0 auto;
     }
     .col-3 {
